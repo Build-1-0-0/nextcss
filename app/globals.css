@@ -1,13 +1,23 @@
+// File: app/globals.css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Custom Global Styles */
-:root {
-  --cmyk-blue: #0054a6;
-  --rgb-pink: rgb(255, 0, 102);
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-body {
-  @apply antialiased;
+/* Support for CMYK-inspired palette via CSS vars (optional) */
+:root {
+  --cmyk-c: #00a0e9;
+  --cmyk-m: #ec008c;
+  --cmyk-y: #fff200;
+  --cmyk-k: #231f20;
+}
+
+.dark {
+  --cmyk-c: #005f87;
+  --cmyk-m: #7c0047;
+  --cmyk-y: #bfae00;
+  --cmyk-k: #0f0f0f;
 }
