@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Global Styles */
+:root {
+  --cmyk-blue: #0054a6;
+  --rgb-pink: rgb(255, 0, 102);
+}
+
+body {
+  @apply antialiased;
+}
