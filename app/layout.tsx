@@ -1,11 +1,10 @@
 // app/layout.tsx
-import "./globals.css";
-import type { Metadata } from "next";
-import Layout from "@/components/Layout";
+import './globals.css';
+import Layout from '@/components/Layout';
 
-export const metadata: Metadata = {
-  title: "NextCSS",
-  description: "A CSS-powered portfolio playground",
+export const metadata = {
+  title: 'nextcss',
+  description: 'Modern CSS playground and design system',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
