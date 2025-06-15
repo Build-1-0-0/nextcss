@@ -1,5 +1,5 @@
 // File: app/layout.tsx
-import "@/app/globals.css";
+import ThemeToggle from '@/components/ThemeToggle'; 
 import Link from "next/link";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
